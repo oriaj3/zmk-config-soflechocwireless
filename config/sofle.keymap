@@ -107,7 +107,7 @@
         tapping-term-ms = <200>;
         bindings = 
                 <&mt KC_N>, 
-                <&mo KC_N_TILDE>;
+                <&mo ES_NTIL>;
         };
     };
 
