@@ -98,13 +98,6 @@
             bindings = <&kp J &kp A &kp I &kp R &kp O &kp DOT &kp R &kp A &kp M &kp I &kp R &kp E &kp Z>;
             label = "TSK_USER";
         };
-
-        macro_N: macro_N {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp RA(TILDE) &kp N>;
-            label = "MACRO_N";
-        };
     };
 
     behaviors {
