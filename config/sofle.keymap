@@ -99,6 +99,18 @@
         };
     };
 
+   behaviors {
+    td_mytd: tap_dance_my {
+        compatible = "zmk,behavior-tap-dance";
+        label = "TAP_DANCE_MY;
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = 
+                <&mt KC_N>, 
+                <&mo KC_N_TILDE>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
