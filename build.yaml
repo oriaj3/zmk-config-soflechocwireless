@@ -11,6 +11,7 @@
 #   - board: nice_nano_v2
 #     shield: reviung41
 #
+# oriaj3 -test 
 ---
 include:
   - board: nice_nano_v2
